@@ -1,0 +1,72 @@
+/* Style pour le conteneur principal */
+.guide {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+.guide h1,
+.guide h2 {
+  color: #333;
+}
+
+.guide p {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Style pour le code préformaté */
+.guide pre {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
+/* Style pour le code dans le texte */
+.guide code {
+  font-family: "Courier New", monospace;
+  color: #007bff;
+}
+
+/* Style pour la liste ordonnée */
+.guide ol {
+  padding-left: 20px;
+}
+
+/* Style pour la liste non ordonnée */
+.guide ul {
+  padding-left: 20px;
+}
+
+/* Style pour les éléments de liste */
+.guide li {
+  margin-bottom: 5px;
+}
+
+/* Style pour les liens */
+.guide a {
+  color: #007bff;
+  text-decoration: none;
+  border-bottom: 1px solid #007bff;
+  transition: border-bottom 0.3s ease;
+}
+
+.guide a:hover {
+  border-bottom: 2px solid #007bff;
+}
+
+/* Style pour le bouton */
+.guide button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.guide button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,53 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  position: relative;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+/* Styles pour la version mobile (menu burger) */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  .nav-links.show-mobile-menu {
+    display: flex;
+  }
+}

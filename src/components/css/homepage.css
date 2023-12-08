@@ -1,0 +1,28 @@
+.microphone-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3498db; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte */
+  padding: 10px;
+  border-radius: 50%; /* Pour rendre le bouton circulaire */
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.microphone-output {
+  position: fixed;
+  bottom: 20px;
+  right: 90px;
+  background-color: rgba(189, 189, 189, 0.519);
+  color: #484848;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 50px;
+}
+
+.icon {
+  font-size: 24px; /* Taille de l'icône */
+}
